@@ -1,0 +1,39 @@
+/* General Styles */
+html {
+  font-size: 18px;
+}
+body {
+  line-height: 1.4;
+  font-family: Helvetica, sans-serif;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* Header Section */
+.header {
+  background-color: cadetblue;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 1.5rem;
+  margin-left: 2rem;
+}
+.logo span {
+  margin: 1rem 1rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav span {
+  margin: 1rem 2rem;
+}
