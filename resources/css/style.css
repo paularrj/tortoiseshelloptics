@@ -57,3 +57,25 @@ nav span {
 .motto h1 {
   padding: 1.5rem 5rem;
 }
+/* Services Section */
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 8rem;
+  margin-left: 6rem;
+  text-align: center;
+  justify-content: space-between;
+}
+.paper img {
+  width: 3.5rem;
+}
+.ruler img,
+.truck img {
+  width: 5rem;
+}
