@@ -17,7 +17,8 @@ body {
   color: white;
   display: flex;
   justify-content: space-between;
-  margin-top: 1rem;
+  position: relative;
+  top: 1rem;
 }
 .logo {
   display: flex;
@@ -36,4 +37,23 @@ nav {
 }
 nav span {
   margin: 1rem 2rem;
+}
+.banner {
+  background-image: url("../../resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 30rem;
+}
+.motto {
+  background-color: white;
+  float: right;
+  margin-top: 10rem;
+  margin-right: 11rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+.motto h1 {
+  padding: 1.5rem 5rem;
 }
